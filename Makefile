@@ -1,5 +1,5 @@
 FC =gfortran
-CFLAGS=-fcheck=all -Jinclude
+CFLAGS=-Wall -Wconversion -fcheck=all -Jinclude
 OBJS =autoderiv.o main.o
 SRC =autoderiv.f95 main.f95
 OUTPTNAME =main.exe
