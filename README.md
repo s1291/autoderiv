@@ -1,4 +1,4 @@
 ## About
-This is simple program that implements automatic differentiation.
+This is a simple program that implements automatic differentiation.
 
 
