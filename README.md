@@ -1,5 +1,5 @@
 ## About
-This is a simple program that implements automatic differentiation.
+This is a simple program that implements automatic differentiation using operator overloading.
 ## Installation
 Download the zip or clone the repository:
 
