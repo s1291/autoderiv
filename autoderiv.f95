@@ -161,7 +161,7 @@ TYPE(AD) FUNCTION varPowNb(X,Y) RESULT(Z)
 TYPE(AD), INTENT(IN) :: X
 REAL(pr), INTENT(IN) :: Y
 Z%V  = (X%v)**Y
-Z%dv = Y *(X%V)**(Y-1.0)
+Z%dv = Y *(X%v)**(Y-1.0)*(X%dv)
 END FUNCTION!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 TYPE(AD) FUNCTION nbPowVar(X,Y) RESULT(Z)
 REAL(pr), INTENT(IN) :: X
